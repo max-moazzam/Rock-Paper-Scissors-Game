@@ -5,9 +5,10 @@ This is a simple Rock, Paper, Scissors game developed on JavaScript.
 It is heavily based on one of the activities in Codecademy's JavaScript tutorial.
 
 However, I have added some of my own functionality to it.
---------------------------------------------------------------------------------------------------------------------------------
-INSTRUCTIONS:
 
+
+INSTRUCTIONS:
+--------------------------------------------------------------------------------------------------------------------------------
 Simply run the script, then choose Rock, Paper, Scissors, or simply hit cancel.
 Case is not necessary.
 
