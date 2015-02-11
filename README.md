@@ -6,6 +6,8 @@ It is heavily based on one of the activities in Codecademy's JavaScript tutorial
 
 However, I have added some of my own functionality to it.
 
+I would appreciate any input, as this is my first program and I don't know any of the proper protocols, procedures, etc!
+
 
 INSTRUCTIONS:
 --------------------------------------------------------------------------------------------------------------------------------
@@ -20,8 +22,7 @@ Scissors beats Paper
 Paper beats Rock
 
 If an incorrect response is put in, the program will ask you to try again.
---------------------------------------------------------------------------------------------------------------------------------
-I would appreciate any input, as this is my first program and I don't know any of the proper procedures!
+
 --------------------------------------------------------------------------------------------------------------------------------
 To Do:
 1: Create a way to replay the game if a tie is made.
