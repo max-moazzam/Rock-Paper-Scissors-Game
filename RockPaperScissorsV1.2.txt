@@ -1,0 +1,59 @@
+//Rock Paper Scissors Game//
+
+var userChoice = prompt("Do you choose Rock, Paper or Scissors?", "Choose Rock, Paper, or Scissors!"); //Prompt for user to input a choice
+
+var userChoice = userChoice.toLowerCase(); //Allows user to enter choice using any case
+
+if (userChoice == "") { //If user does not enter anything or hits cancel, script terminates
+    return;
+} else if (userChoice != "rock" | "paper" | "scissors") { //If user puts anything, but rock, paper, or scissors, an alert will come up telling them to try again
+    alert("You did not enter Rock, Paper, or Scissors! Try again!");
+} else {
+
+    var computerChoice = Math.random(); //Generates a random number between 0 and 1
+
+    if (computerChoice < 0.34) { //Divided into thirds; computer chooses rock if in first third, paper for next third, and scissors last third
+        computerChoice = "rock";
+    } else if (computerChoice <= 0.67) {
+        computerChoice = "paper";
+    } else {
+        computerChoice = "scissors";
+    };
+
+    var compare = function (choice1, choice2) { //Function that compares both the computer choice and the user choice using if statements and returns which choice wins
+
+        if (choice1 === choice2) { //Tie if both choices are equal 
+            return "The result is a tie!";
+        } else if (choice1 === "rock") { //User chooses Rock
+            if (choice2 === "scissors") { //User: Rock AND Computer: Scissors
+                return "Rock beats Scissors\nYOU WIN!";
+            } else {
+                return "Paper beats Rock\nYOU LOSE!"; //User: Rock AND Computer: Paper
+            }
+        } else if (choice1 === "paper") { //User chooses Paper
+            if (choice2 === "rock") { //User: Paper AND Computer: Rock
+                return "Paper beats Rock\nYOU WIN!";
+            } else {
+                return "Scissors beats Paper\nYOU LOSE!"; //User: Paper AND Computer: Scissors
+            }
+        } else if (choice1 === "scissors") { //User chooses Scissors
+            if (choice2 === "rock") { //User: Scissors AND Computer: Rock
+                return "Rock beats Scissors\nYOU LOSE!";
+            } else {
+                return "Scissors beats Paper\nYOU WIN!"; //User: Scissors AND Computer: Paper
+            }
+        }
+    };
+
+    function capitalizeFirst(string) { //Function that capitalizes first letter of a string
+        return string.charAt(0).toUpperCase() + string.slice(1); //Capitalizes first letter of a string and adds it to a string, then deletes the previously uncapitalized letter
+    };
+
+    var result = compare(userChoice, computerChoice); //Calls up the function and stores the result in the result variable
+
+    var userChoice = capitalizeFirst(userChoice); //Capitalize the first letter of the user and computer choices for aesthetic purposes
+    var computerChoice = capitalizeFirst(computerChoice);
+
+    alert("You chose: " + userChoice + "\n" + "Computer chose: " + computerChoice + "\n" + result); //Displays user choice, computer choice, and the result to the user in an alert
+
+};
