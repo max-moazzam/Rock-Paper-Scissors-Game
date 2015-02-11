@@ -23,9 +23,9 @@ Paper beats Rock
 
 If an incorrect response is put in, the program will ask you to try again.
 
---------------------------------------------------------------------------------------------------------------------------------
-To Do:
 
+To Do:
+--------------------------------------------------------------------------------------------------------------------------------
 1: Create a way to replay the game if a tie is made.
 
 2: Allow for the user to play again.
