@@ -26,8 +26,6 @@ If an incorrect response is put in, the program will ask you to try again.
 
 To Do:
 --------------------------------------------------------------------------------------------------------------------------------
-1: Create a way to replay the game if a tie is made.
+1: Allow for the user to play again.
 
-2: Allow for the user to play again.
-
-3: Make the code simpler, look nicer, and be easier to understand.
+2: Make the code simpler, look nicer, and be easier to understand.
