@@ -2,11 +2,13 @@
 Rock Paper Scissors on JavaScript
 
 This is a simple Rock, Paper, Scissors game developed on JavaScript.
-It is heavily based on one of the activities in Codecademy's JavaScript tutorial.
+It is based on one of the projects in Codecademy's JavaScript tutorial.
 
-However, I have added some of my own functionality to it.
+However, I have added some of my own functionality to it, such as allowing for incorrect responses to
+be entered, and for the game to be played through prompts and confirmations rather than the console.
 
-I would appreciate any input, as this is my first program and I don't know any of the proper protocols, procedures, etc!
+I would appreciate any input, as this is my first program and I don't know any of the proper protocols, procedures, etc to writing well coded javascript.!
+
 I'm also trying to figure out how to use GitHub.
 
 INSTRUCTIONS:
@@ -26,8 +28,7 @@ If an incorrect response is put in, the program will ask you to try again.
 
 To Do:
 --------------------------------------------------------------------------------------------------------------------------------
-1: Create a way to replay the game if a tie is made.
 
-2: Allow for the user to play again.
+1: Allow for the user to play again.
 
-3: Make the code simpler, look nicer, and be easier to understand.
+2: Make the code simpler, look nicer, and be easier to understand.
