@@ -7,7 +7,7 @@ var userChoice = prompt("Do you choose Rock, Paper or Scissors?", "Choose Rock, 
 var userChoice = userChoice.toLowerCase(); //Allows user to enter choice using any case
 
 if (userChoice == "") { //If user does not enter anything or hits cancel, script terminates
-    alert('You have tied! Try again or hit cancel!'); //Alert for the user to try again
+    whileLoopStop = false; //Stops the while loop
 } else if (userChoice != "rock" && userChoice != "paper" && userChoice != "scissors") { //If user puts anything, but rock, paper, or scissors, an alert will come up telling them to try again
     alert("You did not put Rock, Paper, or Scissors! Try again or hit cancel!")
     } else {
