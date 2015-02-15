@@ -32,3 +32,8 @@ To Do:
 1: Allow for the user to play again.
 
 2: Make the code simpler, look nicer, and be easier to understand.
+=======
+1: Allow for the user to play again.
+
+2: Make the code simpler, look nicer, and be easier to understand.
+>>>>>>> FETCH_HEAD
